@@ -23,7 +23,6 @@
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-config-mourner": "^2.0.3",
-    "simpleheat": "~0.4.0",
     "uglify-js": "^3.3.9"
   },
   "eslintConfig": {
@@ -53,5 +52,8 @@
     "undef": true,
     "unused": true,
     "browser": true
+  },
+  "dependencies": {
+    "simpleheat": "^0.4.0"
   }
 }

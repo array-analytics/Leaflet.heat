@@ -1,6 +1,6 @@
 {
   "name": "leaflet.heat",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A tiny and fast Leaflet heatmap plugin that supports loading by common package loaders.",
   "homepage": "https://github.com/array-analytics/Leaflet.heat",
   "keywords": [

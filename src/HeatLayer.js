@@ -225,10 +225,10 @@
         }
     });
 
-    /* L.heatLayer = function (latlngs, options) {
+    L.heatLayer = function (latlngs, options) {
         return new L.HeatLayer(latlngs, options);
-    }; */
+    };
 
-    return L.HeatLayer;
+    return L.heatLayer;
 
 }));

@@ -1,8 +1,8 @@
 {
   "name": "leaflet.heat",
-  "version": "0.2.0",
-  "description": "A tiny and fast Leaflet heatmap plugin.",
-  "homepage": "https://github.com/Leaflet/Leaflet.heat",
+  "version": "0.2.1",
+  "description": "A tiny and fast Leaflet heatmap plugin that supports loading by common package loaders.",
+  "homepage": "https://github.com/array-analytics/Leaflet.heat",
   "keywords": [
     "heatmap",
     "canvas",
@@ -12,9 +12,12 @@
     "plugin"
   ],
   "author": "Vladimir Agafonkin",
+  "contributors": [
+    "Diego H. Bustamante"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Leaflet/Leaflet.heat.git"
+    "url": "git://github.com/array-analytics/Leaflet.heat.git"
   },
   "main": "dist/leaflet-heat.js",
   "devDependencies": {

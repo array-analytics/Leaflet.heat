@@ -1,6 +1,6 @@
 {
   "name": "leaflet.heat",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A tiny and fast Leaflet heatmap plugin that supports loading by common package loaders.",
   "homepage": "https://github.com/array-analytics/Leaflet.heat",
   "keywords": [
@@ -21,10 +21,9 @@
   },
   "main": "dist/leaflet-heat.js",
   "devDependencies": {
-    "eslint": "^1.7.3",
-    "eslint-config-mourner": "^1.0.1",
-    "simpleheat": "~0.2.0",
-    "uglify-js": "^2.5.0"
+    "eslint": "^4.17.0",
+    "eslint-config-mourner": "^2.0.3",
+    "uglify-js": "^3.3.9"
   },
   "eslintConfig": {
     "extends": "mourner",
@@ -53,5 +52,8 @@
     "undef": true,
     "unused": true,
     "browser": true
+  },
+  "dependencies": {
+    "simpleheat": "^0.4.0"
   }
 }

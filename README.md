@@ -79,6 +79,13 @@ Unless `max` option is specified, intensity should range between `0.0` and `1.0`
 
 ## Changelog
 
+###0.3.0 &mdash; Feb 06, 2018
+- updated all dependencies
+- moved simpleheat dependency off of devDependency.
+
+### 0.2.1 &mdash; Feb 06, 2018
+- added UMD wrapper
+
 ### 0.2.0 &mdash; Oct 26, 2015
 
 - Fixed intensity to work properly with `max` option.

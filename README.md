@@ -11,6 +11,23 @@ additionally clustering points into a grid for performance.
 - [10,000 points &rarr;](http://leaflet.github.io/Leaflet.heat/demo)
 - [Adding points dynamically &rarr;](http://leaflet.github.io/Leaflet.heat/demo/draw.html)
 
+## Installation with Typescript/ES6
+1. Install with NPM or Yarn
+2. Install @types/leaflet.heat
+3. Add imports:
+```js
+	import { HeatLayer, heatLayer } from "leaflet";
+	import "leaflet.heat";
+```
+For SystemJS or Aurelia.json config file:
+```json
+{
+	"name": "leaflet.heat",
+	"main": "dist/leaflet-heat",
+	"path": "../node_modules/leaflet.heat",
+	"deps": ["leaflet"]
+}
+```
 
 ## Basic Usage
 
